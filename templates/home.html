@@ -159,57 +159,9 @@
         </h2>
 
         <div class="card shadow-sm mb-4">
-            <div class="card-body">
-
-                <h4 class="text-primary">
-                    Java Developer
-                </h4>
-
-                <p><strong>Location:</strong> Pune</p>
-                <p><strong>Experience:</strong> 2-5 Years</p>
-                <p><strong>Salary:</strong> ₹8 - ₹15 LPA</p>
-
-                <button class="btn btn-primary">
-                    Apply Now
-                </button>
-
-            </div>
-        </div>
-
-        <div class="card shadow-sm mb-4">
-            <div class="card-body">
-
-                <h4 class="text-primary">
-                    Cloud Engineer
-                </h4>
-
-                <p><strong>Location:</strong> Bangalore</p>
-                <p><strong>Experience:</strong> 1-4 Years</p>
-                <p><strong>Salary:</strong> ₹10 - ₹18 LPA</p>
-
-                <button class="btn btn-primary">
-                    Apply Now
-                </button>
-
-            </div>
-        </div>
-
-        <div class="card shadow-sm mb-4">
-            <div class="card-body">
-
-                <h4 class="text-primary">
-                    AI / ML Engineer
-                </h4>
-
-                <p><strong>Location:</strong> Hyderabad</p>
-                <p><strong>Experience:</strong> 3-6 Years</p>
-                <p><strong>Salary:</strong> ₹15 - ₹25 LPA</p>
-
-                <button class="btn btn-primary">
-                    Apply Now
-                </button>
-
-            </div>
+            {%for job in jobs%}
+                {% include 'jobitem.html' %}
+            {% endfor %}
         </div>
 
     </section>
