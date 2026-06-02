@@ -1,37 +1,61 @@
-````markdown
 # TalentForge Careers
 
-TalentForge is a modern job portal designed to connect talented professionals with leading organizations. Built with a clean and responsive user interface, the platform helps job seekers discover opportunities across Software Development, Cloud Computing, Artificial Intelligence, Data Science, Cybersecurity, and other technology domains.
+TalentForge Careers is a modern job portal built using Flask, HTML, CSS, and Bootstrap. The platform is designed to connect talented professionals with leading organizations by providing a clean, responsive, and user-friendly job discovery experience.
 
 ## 🚀 About the Project
 
-Founded in April 2026, TalentForge was created with the vision of simplifying the recruitment process for both job seekers and employers. The platform focuses on providing a seamless experience for discovering career opportunities while enabling organizations to attract and engage top talent.
+Founded in April 2026, TalentForge was created with the vision of bridging the gap between talented professionals and organizations seeking exceptional talent. The platform focuses on simplifying the hiring process while helping job seekers discover meaningful career opportunities across various technology domains.
+
+TalentForge aims to provide a seamless recruitment experience through modern web technologies, intuitive design, and a scalable architecture that can support future enhancements.
+
+---
 
 ## ✨ Features
 
-- Modern and responsive user interface
-- Professional landing page
-- Featured job listings
-- About TalentForge section
-- Responsive navigation bar
-- Bootstrap-powered design
-- Career-focused branding
-- Mobile-friendly layout
-- Professional footer with company information
+* Modern and responsive user interface
+* Dynamic job listings powered by Flask
+* Featured Opportunities section
+* Professional About TalentForge section
+* Responsive navigation bar
+* Bootstrap-powered design
+* Mobile-friendly layout
+* Professional footer with company information
+* Job details including:
+
+  * Title
+  * Location
+  * Experience
+  * Salary
+* Clean and scalable project structure
+* Git version control integration
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- HTML5
-- CSS3
-- Bootstrap 5
 
-### Backend (Planned)
-- Python
-- Flask
+* HTML5
+* CSS3
+* Bootstrap 5
+* Jinja2 Templates
 
-### Database (Planned)
-- MySQL / PostgreSQL
+### Backend
+
+* Python
+* Flask
+
+### Version Control
+
+* Git
+* GitHub
+
+### Database (Upcoming)
+
+* MySQL
+* PostgreSQL
+
+---
 
 ## 📂 Project Structure
 
@@ -47,10 +71,14 @@ TalentForge/
 │
 ├── app.py
 │
-└── README.md
-````
+├── README.md
+│
+└── requirements.txt
+```
 
-## ⚙️ Installation
+---
+
+## ⚙️ Installation & Setup
 
 ### Clone Repository
 
@@ -67,7 +95,7 @@ cd TalentForge
 ### Create Virtual Environment
 
 ```bash
-python -m venv .venv
+python -m venv venv
 ```
 
 ### Activate Virtual Environment
@@ -75,13 +103,13 @@ python -m venv .venv
 #### Windows
 
 ```bash
-.venv\Scripts\activate
+venv\Scripts\activate
 ```
 
-#### Linux / Mac
+#### Linux / macOS
 
 ```bash
-source .venv/bin/activate
+source venv/bin/activate
 ```
 
 ### Install Dependencies
@@ -96,42 +124,72 @@ pip install flask
 python app.py
 ```
 
-Visit:
+### Open Browser
 
 ```text
 http://127.0.0.1:5000
 ```
 
+---
+
+## 💼 Current Job Categories
+
+TalentForge currently showcases opportunities across:
+
+* Data Analytics
+* Java Development
+* Cloud Engineering
+* Artificial Intelligence
+* Machine Learning
+* Data Science
+* DevOps
+* Cybersecurity
+* Product Management
+* Software Engineering
+
+---
+
 ## 🎯 Future Enhancements
 
 * User Authentication
-* Job Application Workflow
-* Resume Upload
-* Employer Dashboard
 * Candidate Dashboard
-* Job Search Filters
-* AI-Powered Job Recommendations
+* Employer Dashboard
+* Resume Upload & Management
+* Job Search & Filtering
+* Job Application Tracking
 * Email Notifications
-* Admin Portal
+* AI-Powered Job Recommendations
+* Admin Panel
 * Database Integration
+* REST API Support
+* Cloud Deployment (AWS/Azure)
+
+---
 
 ## 🌟 Vision
 
 Our mission is to empower professionals by helping them discover meaningful career opportunities while enabling organizations to build high-performing teams through exceptional talent.
 
-## 👨‍💻 Author
-
-**Chandrashekhar Bhatia (CB Sir)**
-
-Application Development Analyst | Cloud & AI Enthusiast
-
-## 📄 License
-
-This project is developed for educational and portfolio purposes.
+TalentForge strives to become a trusted platform where careers are built, opportunities are discovered, and organizations find the talent they need to grow.
 
 ---
 
-**TalentForge Careers — Forging Careers. Building Futures.**
+## 👨‍💻 Author
 
-```
-```
+### Chandrashekhar Bhatia (CB Sir)
+
+Application Development Analyst
+Cloud & AI Enthusiast
+Java | Python | Flask | Azure | AI/ML
+
+---
+
+## 📄 License
+
+This project is developed for learning, portfolio, and demonstration purposes.
+
+---
+
+### TalentForge Careers
+
+**Forging Careers. Building Futures.**
